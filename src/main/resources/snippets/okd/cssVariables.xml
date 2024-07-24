@@ -1,0 +1,90 @@
+<templateSet group="OKD CSS Variables">
+  <template name="okd-color" value="var(--okd-color-$COLOR$-$NAME$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="fasle">
+    <variable name="COLOR" expression='enum("gray","red","blue","green","red","orange","yellow","purple","pink")' defaultValue="gray" alwaysStopAt="true" />
+    <variable name="NAME" expression='enum("050","100","200","300","400","500","600","700","800","900")' defaultValue="400" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-line" value="var(--okd-color-line-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("muted","secondary","amplifed")' defaultValue="muted" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-text" value="var(--okd-color-text-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("white","black","lighter","light","secondary","amplifed")' defaultValue="white" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-background" value="var(--okd-color-background-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("base-primary","base-secondary","surface-primary","surface-secondary","surface-pressed","surface-disable","scrim","hover","1","2","3")' defaultValue="base-primary" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-fq" value="var(--okd-color-fq-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("critical","positive","warning","accent","neutral","blue-lv1","blue-lv2","red-lv1","orange-lv1","green-lv1")' defaultValue="critical" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-branded" value="var(--okd-color-branded-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("primary")' defaultValue="primary" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-prefer" value="var(--okd-color-prefer-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("red-chart","red-bg","green-chart","green-bg","red-text","green-text","neutral-text","neutral-bg")' defaultValue="red-chart" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-container" value="var(--okd-color-container-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("primary","secondary","tertiary","contrast","inverse")' defaultValue="primary" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-content" value="var(--okd-color-content-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("primary","secondary","tertiary","contrast","disabled","inverse")' defaultValue="primary" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-border" value="var(--okd-color-border-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("primary","secondary","contrast","selected")' defaultValue="primary" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-semantic" value="var(--okd-color-semantic-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("neutral","notice","positive","negative","informative","highlight")' defaultValue="neutral" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-common" value="var(--okd-color-common-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("transparent","background-2")' defaultValue="transparent" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-data" value="var(--okd-color-data-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("visualization-category-01","visualization-category-02","visualization-category-03","visualization-category-04","visualization-category-05")' defaultValue="visualization-category-01" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+  <template name="okd-color-preference" value="var(--okd-color-preference-$TYPE$)" description="Insert a CSS variable of DS colors" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression='enum("loss","profit","neutral")' defaultValue="loss" alwaysStopAt="true" />
+    <context>
+      <option name="OKD_CSS_VARIABLES" value="true" />
+    </context>
+  </template>
+</templateSet>
+
+
+
